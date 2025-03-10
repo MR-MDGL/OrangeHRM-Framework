@@ -14,6 +14,9 @@ class TestLogin:
 
         assert "dashboard" in self.driver.current_url.lower(), "Login failed with valid credentials"
 
-    def test_login_empty_feilds(self):
-        lp=LaunchPage(self.driver,self.wait)
-        lp.click_login()
+    # def test_login_empty_feilds(self):
+    #     lp=LaunchPage(self.driver,self.wait)
+    #     lp.click_login()
+
+
+

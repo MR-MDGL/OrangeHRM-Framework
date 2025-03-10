@@ -10,10 +10,5 @@ def setup(request):
     driver.maximize_window()
     request.cls.driver = driver
     request.cls.wait = wait
-
-
-
-
-
     yield
     driver.quit()
